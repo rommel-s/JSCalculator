@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calc">
+        <form action="" name="form">
+            <input class="text-view" name="text-view">
+        </form>
+
+        <div class="btns" id="action-btns">
+            <input type="button" class="act-butn" value="C">
+            <input type="button" class="act-butn" value="<">
+
+        </div>
+
+        <div id="numbr-operations">
+
+            <div class="btns" id="number-btns">
+                <div id="first-row">
+                    <input type="button" class="ins-butn" value="7" onclick="insert(7)">
+                    <input type="button" class="ins-butn" value="8" onclick="insert(8)">
+                    <input type="button" class="ins-butn" value="9" onclick="insert(9)">
+    
+                </div>
+                <div id="second-row">
+                    <input type="button" class="ins-butn" value="4" onclick="insert(4)">
+                    <input type="button" class="ins-butn" value="5" onclick="insert(5)">
+                    <input type="button" class="ins-butn" value="6" onclick="insert(6)">
+    
+                </div>
+                <div id="third-row">
+                    <input type="button" class="ins-butn" value="1" onclick="insert(1)">
+                    <input type="button" class="ins-butn" value="2" onclick="insert(2)">
+                    <input type="button" class="ins-butn" value="3" onclick="insert(3)">
+    
+                </div>
+    
+                <div id="fourth-row">
+                    <input type="button" class="ins-butn" value="0" onclick="insert(0)">
+                    <input type="button" class="ins-butn" value="." onclick="insert(.)">
+                    <input type="button" class="ins-butn" value="=">
+    
+                </div>
+                
+            </div>
+            
+            <div class="btns" id="op-btns">
+                <input type="button" class="ins-butn" value="/">
+                <input type="button" class="ins-butn" value="x">
+                <input type="button" class="ins-butn" value="-">
+                <input type="button" class="ins-butn" value="+">
+    
+    
+            </div>
+        </div>
+        
+
+
+
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
