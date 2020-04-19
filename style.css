@@ -1,12 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: #e5e5e5;
+    background-color: #d4d3d3;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
 }
 
 .calc {
@@ -15,14 +15,31 @@ body {
     height: auto;
     width: auto;
     justify-content: center;
+    position: absolute;
+    border-radius: 5px;
+
 }
 
-.nbrview {
+#result {
     width: 312px;
-    height: 60px;
+    height: 100px;
     align-self: center;
+
+    text-align: right;
+}
+
+#history {
+    font-size: 20px;
+    
+    margin-top: 3px;
+    color: #959595;
+    font-weight: 600;
+}
+
+#output {
     font-size: 50px;
-    text-indent: 5px;
+    font-weight: 800;
+    margin-top: 3px;
 }
 
 #numbr-operations {
@@ -37,17 +54,21 @@ body {
 }
 
 .act-butn {
-    
     margin: 3px;
     height: 70px;
     width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 
 .ins-butn {
     height: 70px;
     width: 70px;
     margin: 3px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
 }
 
 #op-btns {
