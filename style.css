@@ -5,6 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+button {
+    outline: none;
+}
+
 p {
     margin: 0;
 }
@@ -59,8 +63,12 @@ p {
     width: 150px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    border: 0px;
+    outline: none;
 }
 
+.number, 
+.operator, 
 .ins-butn {
     height: 70px;
     width: 70px;
@@ -69,6 +77,8 @@ p {
     font-size: 30px;
     font-weight: 800;
     cursor: pointer;
+    border: 0px;
+    outline: none;
 }
 
 #op-btns {
