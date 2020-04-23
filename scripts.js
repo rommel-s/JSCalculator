@@ -49,24 +49,6 @@ for (let init=0; init<number.length; init++) {
   })
 }
 
-// operations output
-for (let init=0; init<operator.length; init++ ) {
-  operator[init].addEventListener('click', function() {
-    console.log("clicou em "+this.value)
-    var output = getOutput()
-    var history = calcHistory()
-    if (output != "") {
-
-      history = history + output
-      if (this.id == '=') {
-        let result = eval(output)
-        showOutput(result)
-        showHistory('')
-    } 
-    }
-  })
-}
-
 //actions
 for (let init=0; init<action.length; init++) {
   action[init].addEventListener('click', function() {
