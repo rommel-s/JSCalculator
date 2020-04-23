@@ -11,6 +11,26 @@ function getOutput() {
 }
 
 function showOutput(nbr) {
-  document.getElementById('output-value').innerText = nbr
+  if (nbr == "") {
+    document.getElementById('output-value').innerText = nbr
+
+  } else {
+    document.getElementById('output-value').innerText = formatNumber(nbr)
+
+  }
+
 }
+
+function formatNumber(nbr) {
+  var number = Number(nbr)
+  var format = number.toLocaleString("br")
+  return format
+}
+
+showOutput('18111111')
+// function getDefaultInput(nbr) {
+//   return Number(nbr.replace(/./g,''))
+// }
+
+// console.log(getDefaultInput(getOutput()))
 
